@@ -1,0 +1,56 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  height: 189px;
+  border: 2px solid rgba(0, 0, 0, 0.21);
+  background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0) 100%);
+}
+
+.footer > div {
+  margin-left: 32px;
+}
+
+.footer div h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer div p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.control-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 500px;
+}
+
+.control-play img {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  margin-top: 15px;
+  width: 560px;
+  height: 4px;
+  background-color: #ccc3c3;
+}
+
+.progress {
+  height: 100%;
+  width: 200px;
+  background-color: #e5007b;
+}

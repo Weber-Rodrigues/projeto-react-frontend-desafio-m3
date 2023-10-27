@@ -1,0 +1,35 @@
+.play-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.play-list img {
+  display: flex;
+  width: 260px;
+  height: 260px;
+}
+
+.play-list h2 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.play-list p {
+  display: flex;
+  width: 260px;
+  height: 136px;
+  flex-direction: column;
+  color: #ccc3c3;
+  text-align: justify;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

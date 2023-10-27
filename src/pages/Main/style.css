@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(180deg, #0c0505 0%, #3a3535 47.92%, #5e5858 100%);
+}
+
+.playListCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playListCards > h2 {
+  width: 1120px;
+  align-items: start;
+  margin-top: 100px;
+  margin-bottom: 24px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.playListCards > div {
+  width: 1120px;
+  padding-top: 13px;
+  border-top: 1px solid #6a6363;
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
